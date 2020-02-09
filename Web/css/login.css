@@ -1,0 +1,76 @@
+
+
+body{
+	width: 600;
+	/* background-image: url("../images/burj.jpg"); */
+	background-image: url("../images/burj.jpg");
+	background-repeat: no-repeat;
+    background-size: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div{
+
+}
+
+input{
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+header{
+	text-decoration:bold;
+}
+
+.logo{
+	width: 600;
+	/*border-style: double;
+	border-radius: 5px;*/
+}
+
+.ep{
+	color:orange;
+}
+
+.tp{
+	color:green;
+}
+
+.sl{
+	color:red;
+}
+
+.signalContainer{
+	background-color: gray;
+	border-style: double;
+	border-radius: 5px;
+	margin-top: 0px;
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 30%;
+}
+
+.loginContainer{
+	background-color: white;
+	border-style: double;
+	border-radius: 5px;
+	margin-top: 0px;
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 40%;
+}
+
+.buttons{
+	margin-top: 1px;
+	margin-left: 72px;
+}
+
+.username{
+	margin-left: 2px;
+}
+
+.password{
+	margin-left: 6px; 
+
+}
