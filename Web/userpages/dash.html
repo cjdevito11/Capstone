@@ -1,0 +1,161 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../css/dash.css">
+</head>
+
+<center>
+<body>
+
+<div class="wrap">
+<div class="alertDiv" id="alertDiv">
+<h4>Alerts</h4>
+<p>
+<h4 class="ep"> CLOSE GBPJPY </h6> 
+<h4 class="tp"> CLOSE AUSJPY </h6>
+<h4 class="tp"> close USDCAD </h6>
+<h4 class="sl"> CLOSE EURUSD </h6>
+</p>
+</div>
+
+
+
+<div class="teamDiv" id="teamDiv">
+<h4>Teams</h4>
+<h2 class="team"> Piptopia  </h2>
+<h4	class="team"> BMT </h4>
+<h4 class="team"> Pipaholicz </h4>
+<h4 class="team"> Tradehouse </h4>
+</div>
+
+
+
+<div class="sessionDiv" id="sessionDiv">
+<h4 id="st">Sessions</h4>
+<h5 id="ny"> New York </h5> 
+<h5 id="ln"> London </h5>
+<h5 id="sy"> Sydney </h5>
+<h5 id="to"> Tokyo </h5>
+</div>
+
+
+
+
+<div class="signalDiv" id="signalDiv">
+<object type="text/html" data="dashSignals.html" width="100%" height="216vh" ></object>
+</div>
+
+</div>
+<!--
+<div class="newsDiv">
+<h4>JPY CRASH ... USD Strong ... USDCAD bullish ...  </h4>
+</div>
+-->
+
+<div class="navDiv">
+
+<object type="text/html" data="nav.html" ></object>
+
+</div>
+
+</center>
+
+
+<script>
+
+function TimeOfDay() {
+
+    var date = new Date();
+    var time = date.getHours();
+ 
+    if (time >= 3 && time < 4) {
+		sydneyOff();
+		newyorkOff();
+		
+        london();
+		tokyo();
+	} else if (time >= 4 && time <= 8) {
+		tokyoOff();
+		sydneyOff();
+		newyorkOff();
+		
+		london();
+    } else if ( time > 8 && time <= 12) {
+		tokyoOff();
+		sydneyOff();
+		
+		london();
+		newyork();
+		
+    } else if ( time >= 12 && time <= 17) {
+		londonOff();
+		tokyoOff();
+		sydneyOff();
+		
+        newyork();
+		
+		
+    } else if ( time > 17 && time < 18) {
+		tokyoOff();
+		newyork();
+		londonOff();
+		
+		sydney();
+		
+		
+	} else if ( time >= 18 && time <= 2){
+		newyorkOff();
+		londonOff();
+		
+		tokyo();
+		sydney();
+		
+	} else if ( time >= 2 && time <= 3){
+		sydneyOff();
+		newyorkOff();
+		londonOff();
+		
+		tokyo();
+		
+	}   
+	 
+}
+
+function london() {
+   document.getElementById("ln").className = "on"; 
+}
+function newyork() {
+   document.getElementById("ny").className = "on"; 
+   
+}
+function sydney() {
+   document.getElementById("sy").className = "on"; 
+}
+function tokyo() {
+   document.getElementById("to").className = "on"; 
+}
+
+function londonOff() {
+   document.getElementById("ln").className = "off"; 
+}
+function newyorkOff() {
+   document.getElementById("ny").className = "off"; 
+   
+}
+function sydneyOff() {
+   document.getElementById("sy").className = "off"; 
+}
+function tokyoOff() {
+   document.getElementById("to").className = "off"; 
+}
+TimeOfDay();
+
+ </script>
+ 
+
+
+
+
+
+</body>
+</html>

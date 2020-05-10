@@ -1,41 +1,40 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="../css/login.css">
+<link rel="stylesheet" href="../css/entry.css">
 </head>
 <body>
+<center>
+<div class ="signalEntry" id="signalEntry">
+	
+	<form>
+	<input type="text" placeholder="Enter Pair" name="pair" required><br>
 
-<div class="signalContainer" id="loginContainer">
+	<input type="text" placeholder="Enter Type" name="type" required><br>
+	
+	<input type="number" placeholder="Enter Entry Price" name="entryTop" required><br>
 
-<section>
-<header> EURJPY </header>
-<p class="ep"> Entry: 1.15050-1.15250 </p>
-<p class="tp"> TP1: 1.25000 </p>
-<p class="tp"> TP2: 1.25000 </p>
-<p class="sl"> SL: 1.10000 </p>
+	<input type="number" placeholder="Enter Entry Price" name="entryBottom"><br>
 
-</section>
-<aside>
-<p> ACTIVE </p>
-</aside>
+	<input type="number" placeholder="Enter SL" name="SL" required><br>
+
+	<input type="number" placeholder="Enter TP1" name="tp1" required><br>
+
+	<input type="number" placeholder="Enter TP2" name="tp2"><br>
+
+	<input type="number" placeholder="Enter TP3" name="tp3"><br>
+
+	<input type="number" placeholder="Enter TP4" name="tp4"><br>
+
+	<input type="number" placeholder="Enter TP5" name="tp5"><br>
+
+	
+	<button class = "submitButton" type="submit">Submit</button>
+	<button class = "clearButton"  type= "reset">Clear</button>
+	
+	</form>
+</center>
 </div>
-
-<div class="loginContainer" id="loginContainer">
-
-<section>
-<header> USDCAD</header>
-<p class="ep"> Entry Point : 1.85234 - 1.85000 </p>
-<p class="tp"> TP1 : 1.84000 </p>
-<p class="tp"> TP2 : 1.82500 </p>
-<p class="sl"> SL : 1.90000 </p>
-
-</section>
-<aside>
-<p> ACTIVE </p>
-</aside>
-</div>
-
-
 
 </body>
 </html>
