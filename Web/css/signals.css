@@ -1,0 +1,82 @@
+html{
+	width: 60vh;
+}
+body{
+	width: 60vh;
+	background-color:black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div{
+
+}
+
+input{
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+header{
+	text-decoration:bold;
+}
+
+p{
+	margin-top: 0px;
+}
+
+h4{
+	background-color: white;
+}
+
+
+.ep{
+	color: yellow;
+	background-color: black;
+}
+
+.tp{
+	color:green;
+	background-color: black;
+}
+
+.sl{
+	color:red;
+	background-color: black;
+}
+
+.divContainer{
+	background-color: green;
+	border-style: double;
+	border-radius: 5px;
+	margin-top: 0px;
+	width: 28vh;
+	float: left;
+}
+.signalContainer{
+	border-style: double;
+	border-radius: 5px;
+	margin-top: 0px;
+	width: 28vh;
+	float: left;
+}
+
+.leftsignalContainer{
+	background-color: green;
+	border-style: double;
+	border-radius: 5px;
+	margin-top: 0px;
+	width: 28vh;
+	float: left;
+}
+
+.rightsignalContainer{
+	background-color: red;
+	border-style: double;
+	border-radius: 5px;
+	margin-top: 0px;
+	width: 28vh;
+	float: left;
+}
+
+

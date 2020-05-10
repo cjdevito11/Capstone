@@ -1,0 +1,191 @@
+html{
+	width: 100%;
+}
+body{
+	width:100%;
+	background-color: #aab4f0;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+input{
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+header{
+	text-decoration:bold;
+}
+
+p{
+	margin-top: 0px;
+}
+
+h4{
+	background-color: white;
+}
+
+
+
+.wrap {
+	width:100%;
+	background-color: #aab4f0;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+
+
+.alertDiv{
+	background-color: rgb(201, 76, 76);
+	border-style: double;
+	border-radius: 10px;
+	border-color: green;
+	margin-top: 0px;
+	/*width: 28vh;*/
+	width: 48%;
+	height:43%;
+	float: left;
+}
+.signalDiv{
+	background-color: black;
+	border-style: double;
+	border-radius: 10px;
+	border-color: green;
+	/*width: 28vh;*/
+	width: 48%;
+	height: 43%;
+	float: left;
+
+}
+.sessionDiv{
+	background-color: black;
+	border-style: double;
+	border-radius: 10px;
+	border-color: green;
+	/*width: 28vh;*/
+	width: 48%;
+	height: 43%;
+	float:left;
+}
+
+.teamDiv{
+	background-color: black;
+	border-style: double;
+	border-radius: 10px;
+	border-color: green;
+	margin-top: 0px;
+	/*width: 28vh;*/
+	width: 48%;
+	height: 43%;
+	float: left;
+}
+
+.navDiv{
+	margin-top: 0px;
+	width: 98%;
+}
+
+.newsDiv{
+	border-radius: 10px;
+	background-color: #aab4f0;
+	/*width: 56vh;*/
+	width: 98%;
+	float: left;
+}
+
+
+
+
+
+.team{
+	transition: transform .2s; /* Animation */
+}
+
+.team:hover{
+	transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+
+
+.on{
+	
+	text-decoration:bold;
+	text-align: center;
+	color: white;
+	background-color: green;
+}
+.off{
+	text-decoration:bold;
+	text-align:center;
+	color: black;
+	background-color: red;
+}
+
+.ep{
+	color: yellow;
+	background-color: black;
+}
+
+.tp{
+	color:green;
+	background-color: black;
+}
+
+.sl{
+	color:red;
+	background-color: black;
+}
+
+.divContainer{
+	background-color: green;
+	border-style: double;
+	border-radius: 5px;
+	margin-top: 0px;
+	width: 28vh;
+	float: left;
+}
+.signalContainer{
+	border-style: double;
+	border-radius: 10px;
+	margin-top: 0px;
+	width: 28vh;
+	float: left;
+}
+
+.leftsignalContainer{
+	background-color: green;
+	border-style: double;
+	border-radius: 10px;
+	margin-top: 0px;
+	width: 28vh;
+	float: left;
+}
+
+.rightsignalContainer{
+	background-color: red;
+	border-style: double;
+	border-radius: 10px;
+	margin-top: 0px;
+	width: 28vh;
+	float: left;
+}
+.brSignalContainer{
+	background-color: red;
+	border-style: double;
+	border-radius: 10px;
+	margin-top: 0px;
+	width: 28vh;
+	float: left;
+}
+.alertContainer{
+	background-color: orange;
+	border-style: double;
+	border-radius: 10px;
+	margin-top: 0px;
+	width: 28vh;
+	float: left;
+}
+
+

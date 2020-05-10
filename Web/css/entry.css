@@ -1,0 +1,39 @@
+html{
+}
+body{
+	background-color:#8cb2a3;
+	background-position: center center;
+	background-attachment: fixed;
+	
+	background-image: url("../images/piptopiabg.jpg");
+}
+head{
+}
+div{
+
+}
+
+input{
+	padding: 3px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	resize: vertical;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+reset{
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+.signalEntry{
+	background-color: cb6d51;
+	border-style: double;
+	border-radius: 5px;
+	margin-top: 0px;
+	width: 40%;
+	background-position: center center;
+	background-attachment: fixed;
+}
+

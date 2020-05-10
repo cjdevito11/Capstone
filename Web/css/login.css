@@ -1,76 +1,88 @@
 
-
 body{
-	width: 600;
+	width:100%;
 	/* background-image: url("../images/burj.jpg"); */
-	background-image: url("../images/burj.jpg");
+	background-color:black;
+	background-image: url("../images/piptopiabg.jpg");
 	background-repeat: no-repeat;
     background-size: auto;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-div{
-
+	background-position: center center;
+	background-attachment: fixed;
 }
 
 input{
-	margin-top: 1px;
-	margin-bottom: 1px;
+	width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
 }
 
 header{
 	text-decoration:bold;
 }
 
-.logo{
-	width: 600;
-	/*border-style: double;
-	border-radius: 5px;*/
-}
-
-.ep{
-	color:orange;
-}
-
-.tp{
-	color:green;
-}
-
-.sl{
-	color:red;
-}
-
-.signalContainer{
-	background-color: gray;
-	border-style: double;
-	border-radius: 5px;
+p{
 	margin-top: 0px;
-	margin-left: 25%;
-	margin-right: 25%;
-	width: 30%;
 }
 
 .loginContainer{
-	background-color: white;
+	margin-top:10vh;
 	border-style: double;
-	border-radius: 5px;
-	margin-top: 0px;
-	margin-left: 25%;
-	margin-right: 25%;
-	width: 40%;
+	background-color:white;
+	border-radius: .2em;
+	width: 40vh;
+	float: center;
 }
 
-.buttons{
-	margin-top: 1px;
-	margin-left: 72px;
+.loginButton{
+	display:inline-block;
+	width:45%;
+	padding:0.46em 1.6em;
+	border:0.1em solid #000000;
+	margin:0 0.2em 0.2em 0;
+	border-radius:0.12em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Roboto',sans-serif;
+	font-weight:300;
+	text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+	background-color: #6edb77;
+	text-align:center;
+	transition: all 0.15s;
 }
+.loginButton:hover{
+	text-shadow: 0 0 2em rgba(255,255,255,1);
+	color:#FFFFFF;
+	border-color:#2d4534;
+}
+.signUpButton{
+	display:inline-block;
+	width:45%;
+	padding:0.46em 1.6em;
+	border:0.1em solid #000000;
+	margin:0 0.2em 0.2em 0;
+	border-radius:0.12em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Roboto',sans-serif;
+	font-weight:300;
+	text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+	background-color: #e8909f;
+	text-align:center;
+	transition: all 0.15s;
+}
+.signUpButton:hover{
+	text-shadow: 0 0 2em rgba(255,255,255,1);
+	color:#FFFFFF;
+	border-color:#2d4534;
+}
+
+
 
 .username{
-	margin-left: 2px;
 }
 
-.password{
-	margin-left: 6px; 
+.password{ 
 
 }

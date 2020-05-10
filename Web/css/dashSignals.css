@@ -1,0 +1,43 @@
+html{
+}
+body{
+	background-color:black;
+	
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto px;
+	margin-bottom: auto;
+}
+
+p{
+	margin-top: 0px;
+}
+
+h4{
+	background-color: white;
+}
+
+
+
+.ep{
+	color: yellow;
+	background-color: black;
+}
+
+.tp{
+	color:green;
+	background-color: black;
+}
+
+.sl{
+	color:red;
+	background-color: black;
+}
+
+.signalContainer{
+	background-color: green;
+	border-style: double;
+	border-radius: 5px;
+	width: 95%;
+	float: left;
+}
