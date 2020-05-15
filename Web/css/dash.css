@@ -1,11 +1,14 @@
 html{
-	width: 100%;
+	width: 98%;
 }
 body{
-	width:100%;
+	width:98%;
+	height:100%;
 	background-color: #aab4f0;
 	background-position: center center;
 	background-attachment: fixed;
+	position: fixed;
+	overflow: hidden; 
 }
 
 input{
@@ -28,7 +31,7 @@ h4{
 
 
 .wrap {
-	width:100%;
+	width:98%;
 	background-color: #aab4f0;
 	background-position: center center;
 	background-attachment: fixed;
@@ -46,9 +49,11 @@ h4{
 	width: 48%;
 	height:43%;
 	float: left;
+	overflow: hidden;
+	overflow-y:auto;
 }
 .signalDiv{
-	background-color: black;
+	background-color: rgb(201, 76, 201);
 	border-style: double;
 	border-radius: 10px;
 	border-color: green;
@@ -56,10 +61,12 @@ h4{
 	width: 48%;
 	height: 43%;
 	float: left;
+	overflow: hidden;
+	overflow-y:auto;
 
 }
 .sessionDiv{
-	background-color: black;
+	background-color: rgb(76, 201, 76);
 	border-style: double;
 	border-radius: 10px;
 	border-color: green;
@@ -70,7 +77,7 @@ h4{
 }
 
 .teamDiv{
-	background-color: black;
+	background-color: background-color: rgb(76, 76, 201);
 	border-style: double;
 	border-radius: 10px;
 	border-color: green;
@@ -79,6 +86,8 @@ h4{
 	width: 48%;
 	height: 43%;
 	float: left;
+	overflow: hidden;
+	overflow-y:auto;
 }
 
 .navDiv{
@@ -94,7 +103,13 @@ h4{
 	float: left;
 }
 
+.bs[h4="BUY"]:after {
+	background-color: green;
+}
 
+h4[bs="SELL"]:after {
+	background-color: red;
+}
 
 
 
@@ -108,7 +123,6 @@ h4{
 
 
 
-
 .on{
 	
 	text-decoration:bold;
@@ -116,6 +130,7 @@ h4{
 	color: white;
 	background-color: green;
 }
+
 .off{
 	text-decoration:bold;
 	text-align:center;

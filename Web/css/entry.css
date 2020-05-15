@@ -13,6 +13,10 @@ div{
 
 }
 
+label{
+	color: white;
+}
+
 input{
 	padding: 3px;
 	border: 1px solid #ccc;
